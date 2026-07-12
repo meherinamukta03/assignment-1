@@ -34,3 +34,185 @@ cursor:pointer;
 font-size:16px;
  border:none;
 }
+
+/* hero */
+.hero{
+
+    height:100vh;
+    background-image:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("./assets/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px; 
+}
+.overlay{
+
+    height:100%;
+
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+.overlay h1{
+    font-size:70px;
+     margin-top:63px;
+    font-weight:bold;
+}
+.overlay p{
+    max-width:700px;
+    margin-top:10px;
+    font-size:20px;
+}
+.overlay button{
+color:#FFFFFF;
+ background-color:#1D4ED8;
+width:282px;
+height:74px;
+padding:12px 22px;
+border-radius: 8px;
+cursor:pointer;
+font-size:31px;
+ border:none;
+ /* padding-top: auto; */
+ margin-top:310px;
+text-align:center;
+}
+
+/* speakers  */
+.speaker h1{
+margin-top: 80px;
+
+text-align:center;
+}
+.speaker{
+    padding: 0 80px;
+}
+.card-container{
+ margin-top: 60px;  
+display:grid;
+grid-template-columns: repeat(2,1fr);
+gap: 25px;
+}
+
+.card{
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    
+}
+.card-body{
+    padding: 18px;
+}
+
+.card-body h5{
+    color: blue;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.card-body h3{
+    margin-bottom: 8px;
+}
+
+.card-body p{
+    color: gray;
+    font-size: 14px;
+}
+/* pricing */
+.pricing {
+ margin-top:150px; 
+}
+
+.pricing p{
+     margin-top:10px; 
+    color:#575757;
+    text-align:center;
+}
+.pricing h1{
+    text-align:center;
+}
+.price-contain{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+.card1{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:20px;
+     text-align:left !important; 
+}
+
+.card1 h5{
+    margin:0px;
+    color:gray;
+    margin-bottom:10px; 
+}
+
+.card1 h1{
+    font-size:48px;
+    margin-top:0px;
+    margin-bottom:5px;
+text-align:left !important; 
+}
+
+.card1 span{
+    /* color:gray; */
+    display:block;
+    margin-top:5px;
+    color:#777;
+
+}
+
+.card1 hr{
+    margin:20px 0;
+}
+
+.card1 ul{
+    padding-left:18px;
+}
+
+.card1 ul li{
+    margin-bottom:12px;
+
+}
+
+.card1 button{
+    width:100%;
+    height:45px;
+    margin-top:20px;
+    border-radius:8px;
+    border:1px solid blue;
+    background:white;
+    color:blue;
+    cursor:pointer;
+}
+
+.dark2{
+    background:#0F172A;
+    color:white;
+}
+
+.dark2 span{
+    color:#ccc;
+}
+
+.dark2 button{
+    background:#2563EB;
+    color:white;
+    border:none;
+}
