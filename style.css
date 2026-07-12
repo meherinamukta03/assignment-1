@@ -1,0 +1,36 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+font-family:Arial, sans-serif;
+}
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+.final-nav{
+    display:flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+.final-nav .list ul{
+ color:#575757;
+ display:flex;
+gap:8px;
+list-style:none;
+}
+.cmn-btn{
+color:#FFFFFF;
+ background-color:#1D4ED8;
+width:150px;
+height:45px;
+padding:12px 22px;
+border-radius: 8px;
+cursor:pointer;
+font-size:16px;
+ border:none;
+}
